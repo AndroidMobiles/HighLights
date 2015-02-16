@@ -1,0 +1,2 @@
+C:\Users\Jestin Jaye Tan\Desktop\Highlight\Highlight\app\build\intermediates\classes\debug
+C:\Users\Jestin Jaye Tan\Desktop\Highlight\Highlight\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-07fe0472461c21c4e9c967852133971d5e5c46e2.jar

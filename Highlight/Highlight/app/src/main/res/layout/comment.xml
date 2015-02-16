@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#648290"
+        android:padding="7dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:shadowRadius="1"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:maxEms="20"
+            android:textStyle="bold"
+            android:id="@+id/nameF"
+            android:layout_toEndOf="@+id/imageF"
+            android:layout_toRightOf="@+id/imageF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:maxLines="2"
+            android:textSize="15sp"
+            android:maxEms="20"
+            android:id="@+id/commentF"
+            android:layout_alignLeft="@+id/nameF"
+            android:layout_below="@+id/nameF"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageF"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+   >
+    <EditText
+        android:id="@+id/EditTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/comment"
+        android:gravity="fill"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:onClick="onClick"
+        android:text="@string/send"/>
+</LinearLayout>
+
+<!-- From: file:/C:/Users/Jestin%20Jaye%20Tan/Desktop/Highlight/Highlight/app/src/main/res/layout/footer.xml -->

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:layout_height="match_parent"
+    android:paddingTop="90dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:shadowColor="#2e2e2e"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="date"
+            android:id="@+id/birthday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            android:layout_span="3"
+            />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2e2e2e"
+                android:text="Female"
+                android:id="@+id/radioButton"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2e2e2e"
+                android:text="Male"
+                android:id="@+id/radioButton2"
+                />
+
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp" />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="textPostalAddress"
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            android:paddingRight="10dp"
+            />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:layout_marginBottom="3dp"
+            />
+
+        <EditText
+            android:inputType="numberPassword"
+            android:background="#FFFFFF"
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems= "20"
+            android:layout_marginBottom="20dp"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="#2e2e2e"
+            android:background="@drawable/button"
+            android:text="@string/register"
+            android:onClick="onClick"
+            android:id="@+id/register"
+            android:layout_gravity="center_horizontal"
+            />
+
+</TableLayout>
+    </LinearLayout><!-- From: file:/C:/Users/Jestin%20Jaye%20Tan/Desktop/Highlight/Highlight/app/src/main/res/layout/register.xml -->

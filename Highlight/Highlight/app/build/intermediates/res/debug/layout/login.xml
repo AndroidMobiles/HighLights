@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="130dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView android:text="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+
+            />
+
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "30"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+    </TableRow>
+        <TableRow>
+        <TextView android:text="@string/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2e2e2e"
+            android:paddingRight="15dp"
+            />
+
+        <EditText
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems= "20"
+            android:layout_span="2"
+            android:layout_weight="1"
+
+            />
+    </TableRow>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:shadowColor="#2e2e2e"
+            android:background="@drawable/button"
+            android:text="@string/login"
+            android:onClick="onClick"
+            android:id="@+id/login"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:layout_height="match_parent"
+            android:textColor="#648290"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:text="Don't have an account?  Register."
+            android:id="@+id/register" />
+    </TableLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Jestin%20Jaye%20Tan/Desktop/Highlight/Highlight/app/src/main/res/layout/login.xml -->

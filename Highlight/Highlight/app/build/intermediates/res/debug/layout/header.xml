@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/post"
+        android:hint="  Write something..."
+        android:inputType="text"
+        android:gravity="top"
+        android:textColor="#2e2e2e"
+        android:background="#FFFFFF"
+        android:ems="300"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/image"
+            android:background="@drawable/image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onClick"
+            />
+
+        <Button
+            android:id="@+id/video"
+            android:layout_toRightOf="@+id/image"
+            android:background="@drawable/video"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onClick"
+            />
+
+        <Button
+            android:id="@+id/posted"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:text="Post"
+            android:textColor="#FFFFFF"
+            android:background="#607d8b"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Users/Jestin%20Jaye%20Tan/Desktop/Highlight/Highlight/app/src/main/res/layout/header.xml -->
